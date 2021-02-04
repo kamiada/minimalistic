@@ -1,11 +1,12 @@
 import './App.css';
+import Card from './components/Card.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          test
-      </header>
+      <div className="cardholder">
+      <Card title="skills."/>
+      </div>
     </div>
   );
 }
