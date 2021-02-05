@@ -1,19 +1,30 @@
 import "./App.css";
 import Card from "./components/Card.jsx";
+import ReactTypingEffect from "react-typing-effect";
 
 function App() {
   return (
     <div className="App">
-    <header>
-      <h1 >Hi, my name is Adrianna</h1>
-    </header>
-    <body>
-    <div className="cardholder">
-        <Card onClick={() => console.log("click")} title="skills." />
-        <Card onClick={() => console.log("click")} title="about." />
-        <Card onClick={() => console.log("click")} title="projects." />
-      </div>
-    </body>
+      <header>
+        <h2>
+          <ReactTypingEffect
+            className="typingeffect"
+            text={[
+              "Hi, my name is Adrianna, I am a software engineer",
+              "Welcome to my Website",
+            ]}
+            speed={100}
+            eraseDelay={100}
+          ></ReactTypingEffect>
+        </h2>
+      </header>
+      <body>
+        <div className="cardholder">
+          <Card onClick={() => console.log("click")} title="skills." />
+          <Card onClick={() => console.log("click")} title="about." />
+          <Card onClick={() => console.log("click")} title="projects." />
+        </div>
+      </body>
     </div>
   );
 }
