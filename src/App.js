@@ -1,8 +1,9 @@
 import "./App.css";
-import Card from "./components/Card.jsx";
+import Card from './components/Card'
 import ReactTypingEffect from "react-typing-effect";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./components/components.scss";
+import Skills from '../src/pages/Skills';
 
 function App() {
   return (
@@ -46,9 +47,6 @@ function App() {
 }
 
 function About() {
-  return <h2>About</h2>;
-}
-function Skills() {
   return <h2>About</h2>;
 }
 function Projects() {
