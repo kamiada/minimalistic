@@ -1,7 +1,8 @@
 import "./App.css";
 import Card from "./components/Card.jsx";
 import ReactTypingEffect from "react-typing-effect";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./components/components.scss";
 
 function App() {
   return (
@@ -23,14 +24,35 @@ function App() {
       <body>
         <Router>
           <div className="cardholder">
-            <Card onClick={() => console.log("click")} title="skills." />
-            <Card onClick={() => console.log("click")} title="about." />
-            <Card onClick={() => console.log("click")} title="projects." />
+            <Card href="/skills" title="skills." />
+            <Card href="/about" title="about." />
+            <Card href="/projects" title="projects." />
+            <Switch>
+            <Route path="/skills">
+            <Skills />
+          </Route>
+          <Route path="/about">
+          <About />
+          </Route>
+          <Route path="/projects">
+          <Projects />
+          </Route>
+        </Switch>
           </div>
         </Router>
       </body>
     </div>
   );
+}
+
+function About() {
+  return <h2>About</h2>;
+}
+function Skills() {
+  return <h2>About</h2>;
+}
+function Projects() {
+  return <h2>About</h2>;
 }
 
 export default App;
