@@ -28,16 +28,16 @@ function App() {
             <Card href="/about" title="about." />
             <Card href="/projects" title="projects." />
             <Switch>
-            <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/about">
-          <About />
-          </Route>
-          <Route path="/projects">
-          <Projects />
-          </Route>
-        </Switch>
+              <Route path="/skills">
+                <Skills />
+              </Route>
+              <Route path="/about">
+                <About />
+              </Route>
+              <Route path="/projects">
+                <Projects />
+              </Route>
+            </Switch>
           </div>
         </Router>
       </body>
