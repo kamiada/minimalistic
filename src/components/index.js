@@ -1,5 +1,7 @@
-export { default as Segment } from './Segment';
-export { default as Card } from './Card';
-export { default as NavBar } from './NavBar';
-export { default as Toggle } from './Toggle';
-export { default as Tag } from './Tag';
+import  Segment from './Segment';
+import Tag from './Tag';
+import Navbar from './NavBar';
+import Toggle from './Toggle';
+import Card from './Card';
+
+export { Segment, Tag, Navbar, Toggle, Card };
