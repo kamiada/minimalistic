@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./pages.css";
+import "./pages.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Segment from "../components/Segment";
 
