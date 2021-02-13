@@ -3,11 +3,18 @@ import "../App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ReactTypingEffect from "react-typing-effect";
 import Card from "../components/Card";
-import Skills from './Skills';
-import About from './About';
-import Projects from './Projects';
+import Skills from "./Skills";
+import About from "./About";
+import Projects from "./Projects";
 
 export default class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      unrender: false,
+    };
+  }
+
   render() {
     return (
       <div className="App">
@@ -28,9 +35,21 @@ export default class Home extends Component {
         <body>
           <Router>
             <div className="cardholder">
-              <Card href="/skills" title="skills." />
-              <Card href="/about" title="about." />
-              <Card href="/projects" title="projects." />
+              <Card
+                href="/skills"
+                title="skills."
+                onClick={() => this.setState({ unrender: true })}
+              />
+              <Card
+                href="/about"
+                title="about."
+                onClick={() => this.setState({ unrender: true })}
+              />
+              <Card
+                href="/projects"
+                title="projects."
+                onClick={() => this.setState({ unrender: true })}
+              />
               <Switch>
                 <Route path="/skills">
                   <Skills />
