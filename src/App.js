@@ -1,4 +1,5 @@
 import Home from './pages/Home';
+import Projects from './pages/Projects';
 import "./App.css";
 import "./components/components.scss";
 import { Segment, Tag } from './components';
@@ -6,7 +7,7 @@ import { Segment, Tag } from './components';
 function App() {
   return (
     <div>
-      <Home/>
+      <Projects/>
     </div>
   );
 }

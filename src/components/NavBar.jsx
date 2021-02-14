@@ -1,27 +1,30 @@
-import React from "react";
+import React, { Component } from "react";
 import "./components.scss";
 
+class Navbar extends Component {
+  render() {
+    return (
+      <nav className="navbar">
+      <ul>
+        <li>
+          <span>Menu</span>
+        </li>
+        <li class="nav-item">
+          <a href={this.props.hrefHome}>Home</a>
+        </li>
+        <li class="nav-item">
+          <a href={this.props.hrefSkills}>Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href={this.props.hrefProjects}>Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href={this.props.hrefAbout}>About</a>
+        </li>
+      </ul>
+    </nav>
+    )
+  }
+}
 
-const NavBar = ({ hrefHome, hrefSkills, hrefProjects, hrefAbout }) => {
-  <nav>
-    <ul>
-      <li>
-        <span>Menu</span>
-      </li>
-      <li class="nav-item">
-        <a href={hrefHome}>Home</a>
-      </li>
-      <li class="nav-item">
-        <a href={hrefSkills}>Skills</a>
-      </li>
-      <li class="nav-item">
-        <a href={hrefProjects}>Projects</a>
-      </li>
-      <li class="nav-item">
-        <a href={hrefAbout}>About</a>
-      </li>
-    </ul>
-  </nav>;
-};
-
-export default NavBar;
+export default Navbar;

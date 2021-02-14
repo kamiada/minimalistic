@@ -39,8 +39,12 @@ a {
 }
 
 //navigation bar styling
-nav {
-
+.navbar {
+  width: 100%;
+  position:fixed;
+  top: 0;
+  right: 0;
+  background-color:  #3e1046;
 }
 .nav-item {
   
