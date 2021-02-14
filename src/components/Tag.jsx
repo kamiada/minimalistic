@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import "./components.scss";
 
-const Tag = ({ title }) => {
-  <div className="tag">
-    {title}
-  </div>;
-};
+class Tag extends Component {
+  render() {
+    return <div className="tag">{this.props.title}</div>;
+  }
+}
 
 export default Tag;
