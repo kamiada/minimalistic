@@ -1,6 +1,4 @@
-import Home from './Home';
-import Projects from './Projects';
-import Skills from './Skills';
-import About from './About';
-
-export { Home, Projects, Skills, About };
+export {default as Home} from './Home.jsx';
+export {default as Projects} from './Projects.jsx';
+export {default as Skills} from './Skills.jsx';
+export {default as About} from './About.jsx';
