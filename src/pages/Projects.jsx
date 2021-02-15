@@ -7,7 +7,6 @@ class Projects extends Component {
   render() {
     return (
       <body>
-      <Navbar />
         <div className="projects_body">
           test
         </div>
