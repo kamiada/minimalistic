@@ -7,7 +7,7 @@ import Skills from "./Skills";
 import About from "./About";
 import Projects from "./Projects";
 
-export default class Home extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -31,7 +31,6 @@ export default class Home extends Component {
             ></ReactTypingEffect>
           </h2>
         </header>
-
         <body>
           <Router>
             <div className="cardholder">
@@ -68,3 +67,4 @@ export default class Home extends Component {
     );
   }
 }
+export default Home;

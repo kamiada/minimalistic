@@ -3,7 +3,7 @@ import "./pages.scss";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Segment, Tag, Navbar} from '../components';
 
-export default class Projects extends Component {
+class Projects extends Component {
   render() {
     return (
       <body>
@@ -15,3 +15,4 @@ export default class Projects extends Component {
     );
   }
 }
+export default Projects;
