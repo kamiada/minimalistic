@@ -7,7 +7,7 @@ import { Navbar } from './components';
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Projects/>
     </div>
   );
 }
