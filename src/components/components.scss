@@ -74,5 +74,10 @@ li {
 
 //Segment style
 .segment {
-  
+
+ img {
+   width: 450px;
+   height: 350px;
+   filter: grayscale(80%);
+ } 
 }
