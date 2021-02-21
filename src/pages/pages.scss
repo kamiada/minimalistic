@@ -2,10 +2,12 @@
 
 .projects_container {
   display: flex;
+  align-items: center;
   margin: 10px 100px 0 250px;
   align-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
   .segment {
     font-family: "Ubuntu", sans-serif;
   }
-  
 }
