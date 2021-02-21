@@ -74,8 +74,8 @@ li {
 
 //Segment style
 .segment {
-
- img {
+  border-style: solid;
+  img {
    width: 450px;
    height: 350px;
    filter: grayscale(80%);
