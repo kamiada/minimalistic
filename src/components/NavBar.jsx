@@ -28,17 +28,13 @@ class Navbar extends Component {
             </ul>
           </nav>
           <Switch>
-            <Route path="/">
-              <Home />
+            <Route exact path="/" component={Home}>
             </Route>
-            <Route path="/skills">
-              <Skills />
+            <Route path="/skills" component={Skills}>
             </Route>
-            <Route path="/projects">
-              <Projects />
+            <Route path="/projects" component={Projects}>
             </Route>
-            <Route path="/about">
-              <About />
+            <Route path="/about" component={About}>
             </Route>
           </Switch>
         </Fragment>
