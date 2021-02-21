@@ -15,14 +15,16 @@ class Segment extends Component {
           gif={this.props.gif}
           pauseRef={(pause) => (this.pauseGif = pause)}
         />
-        {this.props.tags && this.props.tags.length
-          ? this.props.tags.map((element) => Tag(element))
-          : ""}
-        <Link to={this.props.href}>
-          <p>
-            {this.props.title} {this.props.description}
-          </p>
-        </Link>
+        <div className="inside_text">
+          {this.props.tags && this.props.tags.length
+            ? this.props.tags.map((element) => Tag(element))
+            : ""}
+          <Link to={this.props.href}>
+            <p>
+              {this.props.title} {this.props.description}
+            </p>
+          </Link>
+        </div>
       </div>
     );
   }

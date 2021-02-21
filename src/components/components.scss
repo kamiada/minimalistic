@@ -74,16 +74,31 @@ li {
 
 //Segment style
 .segment {
+  position: relative;
+  text-align: center;
   border-style: solid;
+  border-color: #b5b5b5;
+  border-width: 10px;
   img {
    width: 450px;
    height: 350px;
-   filter: grayscale(80%);
- } 
+   background-blend-mode: luminosity;
+ }
+ .gif_player {
+ }
 }
 .tag {
   background-color: #dfdfdf;
   margin: 2px;
   display:inline-block;
   padding: 2px;
+}
+.inside_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  p {
+    background-color: whitesmoke;
+  }
 }
