@@ -2,6 +2,8 @@ import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./components.scss";
 import { Home, Skills, Projects, About } from "../pages";
+import GithubIcon from '../icons/GitHub-Mark-Light-64px.png';
+import Linkedin from '../icons/LI-In-Bug.png';
 
 class Navbar extends Component {
   render() {
@@ -25,6 +27,18 @@ class Navbar extends Component {
               <li class="nav-item">
                 <a href="/about">About</a>
               </li>
+              <div className="social_parent">
+              <li>
+              <a className="socialIcon--linkedin" href="https://github.com/kamiada">
+                <img src={Linkedin} alt="linkedin link" />
+              </a>
+              </li>
+              <li>
+              <a className="socialIcon" href="https://github.com/kamiada">
+                <img src={GithubIcon} alt="github link" />
+              </a>
+              </li>
+              </div>
             </ul>
           </nav>
           <Switch>

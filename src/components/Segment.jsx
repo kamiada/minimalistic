@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./components.scss";
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import GifPlayer from "react-gif-player";
 
 const Tag = (title) => {
@@ -19,11 +19,12 @@ class Segment extends Component {
           {this.props.tags && this.props.tags.length
             ? this.props.tags.map((element) => Tag(element))
             : ""}
-          <Link to={this.props.href}>
-            <p>
-              {this.props.title} {this.props.description}
-            </p>
+            <div>
+            <Link className="title_holder_segment" to={this.props.href}>
+              {this.props.title}{" "}
           </Link>
+            </div>
+          <p>{this.props.description}</p>
         </div>
       </div>
     );
