@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./components.scss";
 import { Home, Skills, Projects, About } from "../pages";
 import GithubIcon from '../icons/GitHub-Mark-Light-64px.png';
-import Linkedin from '../icons/LI-In-Bug.png';
+import Linkedin from '../icons/whiteLinkedin.png';
 
 class Navbar extends Component {
   render() {
@@ -29,7 +29,7 @@ class Navbar extends Component {
               </li>
               <div className="social_parent">
               <li>
-              <a className="socialIcon--linkedin" href="https://github.com/kamiada">
+              <a className="socialIcon--linkedin" href="https://www.linkedin.com/in/adrianna-kaminska-19985a173/">
                 <img src={Linkedin} alt="linkedin link" />
               </a>
               </li>

@@ -52,10 +52,12 @@ a {
     margin-top: 10px;
     &--linkedin {
       img {
-        width: 77px;
+        width: 64px;
         height: 64px;
       }
       background-color: transparent;
+      position: absolute;
+      bottom: 0;
     }
   }
   span {
