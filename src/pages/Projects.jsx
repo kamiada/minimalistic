@@ -1,7 +1,18 @@
 import React, { Component } from "react";
 import "./pages.scss";
-import { Segment, Navbar, Minipage} from '../components';
+import { Segment, Minipage} from '../components';
 import PeriodicTable from '../gifs_examples/periodicTableUpdate.gif';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+  useRouteMatch
+} from "react-router-dom";
+
+
+let { path, url } = useRouteMatch();
 
 class Projects extends Component {
   render() {
@@ -12,6 +23,7 @@ class Projects extends Component {
             title="Periodic Table"
             description="Project done in React.js"
             tags={['React.Js', 'Frontend']}
+            href="/:periodicTable"
           />
           <Segment 
             gif={PeriodicTable}

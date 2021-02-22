@@ -74,16 +74,15 @@ li {
 .segment {
   position: relative;
   text-align: center;
-  border-style: solid;
-  border-color: #b5b5b5;
-  border-width: 10px;
   margin: 30px;
-  justify-content: center;
 
   img {
    width: 450px;
    height: 350px;
    background-blend-mode: luminosity;
+   border-style: solid;
+   border-color: #b5b5b5;
+   border-width: 10px;
  }
  .gif_player {
  }
