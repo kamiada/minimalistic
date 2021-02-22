@@ -6,7 +6,6 @@ import HackathonApp from "../gifs_examples/React App.png";
 import Arctica from "../gifs_examples/arctica.gif";
 import Dissertation from "../gifs_examples/AdriannaKaminkaPosterFinal.png"
 
-
 class Projects extends Component {
   render() {
     return (
@@ -76,6 +75,7 @@ class Projects extends Component {
           description="Game made for Global Game Jam 2018. "
           tags={["Unity", "Game", "C#", "Multiplayer"]}
           href="FeelMyFeels"
+          
         />
       </div>
     );

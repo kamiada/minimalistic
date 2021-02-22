@@ -1,8 +1,108 @@
 {
-    "title": "This website",
-    "tags": [
-        "webdev", "react.js", "UI"
-    ],
-    "short_description": "",
-    "post":""
+    "projectsDescriptions": [
+        {
+            "_id": 0,
+            "title": "Periodic Table",
+            "tags": [
+                "React.Js",
+                "Frontend"
+            ],
+            "post": "",
+            "links": [
+                "https://github.com/kamiada/Mendeleev-Table"
+            ]
+        },
+        {
+            "_id": 1,
+            "title": "Live!",
+            "tags": [
+                "React.Js",
+                "Fullstack",
+                "Python",
+                "Flask",
+                "AWS",
+                "Postman",
+                "API"
+            ],
+            "post": "",
+            "links": [
+                "https://github.com/bbc/hackathon2020/tree/8-hacking-circus/8-hacking-circus/frontend/live"
+            ]
+        },
+        {
+            "_id": 2,
+            "title": "The prototype of a mobile application for customised tourism in Edinburgh",
+            "tags": [
+                "Android",
+                "Java",
+                "Mobile App",
+                "UX/UI"
+            ],
+            "post": "",
+            "links": [
+                ""
+            ]
+        },
+        {
+            "_id": 3,
+            "title": "Tracker",
+            "tags": [
+                "C#.Net",
+                "Data gathering",
+                "JavaScript",
+                "Data Visualisation",
+                "SQL",
+                "Google Charts"
+            ],
+            "post": "",
+            "links": [
+                ""
+            ]
+        },
+        {
+            "_id": 4,
+            "title": "Panda Mediator",
+            "tags": [
+                "Unity",
+                "Game",
+                "C#",
+                "Point & Click",
+                "Time constraints"
+            ],
+            "post": "",
+            "links": [
+                "https://globalgamejam.org/2020/games/panda-mediator-6",
+                "https://github.com/kamiada/GameJam2020"
+            ]
+        },
+        {
+            "_id": 5,
+            "title": "Arctica",
+            "tags": [
+                "Unity",
+                "Game",
+                "C#",
+                "Web"
+            ],
+            "post": "",
+            "links": [
+                "https://torantula.itch.io/arctica"
+            ]
+        },
+        {
+            "_id": 6,
+            "title": "Feel my feels",
+            "tags": [
+                "Unity",
+                "Game",
+                "C#",
+                "Multiplayer"
+            ],
+            "post": "",
+            "links": [
+                "https://kamiada.itch.io/feel-my-feels",
+                "https://github.com/marcomoroni/ggj-2018"
+            ]
+        }
+    ]
 }

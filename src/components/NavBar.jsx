@@ -4,7 +4,7 @@ import "./components.scss";
 import { Home, Skills, Projects, About, ProjectMiniPage } from "../pages";
 import GithubIcon from '../icons/GitHub-Mark-Light-64px.png';
 import Linkedin from '../icons/whiteLinkedin.png';
-
+import data from "../Posts/posts.json";
 class Navbar extends Component {
   render() {
     return (
@@ -61,7 +61,7 @@ class Navbar extends Component {
             <Route path="/projects/PandaMediator" component={ProjectMiniPage}>
             </Route>
             <Route path="/projects/Arctica" >
-            <ProjectMiniPage text="Arctica" />
+            <ProjectMiniPage text={data.projectsDescriptions[0]._id} />
             </Route>
             <Route path="/projects/FeelMyFeels" component={ProjectMiniPage}>
             </Route>

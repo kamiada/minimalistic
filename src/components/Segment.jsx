@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./components.scss";
-import { Link, Route, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import GifPlayer from "react-gif-player";
-import ProjectPage from '../pages/ProjectPage';
 
 const Tag = (title) => {
   return <div className="tag">{title}</div>;
