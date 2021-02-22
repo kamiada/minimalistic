@@ -5,6 +5,7 @@ class Minipage extends Component {
 render() {
     return (
         <div className="page_container">
+            Testing
             <p>{this.props.text}</p>
         </div>
     )

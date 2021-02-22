@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./components.scss";
-import { Link } from 'react-router-dom';
+import { Link, Route, Redirect } from 'react-router-dom';
 import GifPlayer from "react-gif-player";
+import ProjectPage from '../pages/ProjectPage';
 
 const Tag = (title) => {
   return <div className="tag">{title}</div>;
@@ -20,7 +21,7 @@ class Segment extends Component {
             ? this.props.tags.map((element) => Tag(element))
             : ""}
             <div>
-            <Link className="title_holder_segment" to={this.props.href}>
+            <Link className="title_holder_segment" to={`/projects/${this.props.href}`}>
               {this.props.title}{" "}
           </Link>
             </div>

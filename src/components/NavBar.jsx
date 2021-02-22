@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./components.scss";
-import { Home, Skills, Projects, About } from "../pages";
+import { Home, Skills, Projects, About, ProjectMiniPage } from "../pages";
 import GithubIcon from '../icons/GitHub-Mark-Light-64px.png';
 import Linkedin from '../icons/whiteLinkedin.png';
 
@@ -46,10 +46,13 @@ class Navbar extends Component {
             </Route>
             <Route path="/skills" component={Skills}>
             </Route>
-            <Route path="/projects" component={Projects}>
+            <Route exact path="/projects" component={Projects}>
             </Route>
             <Route path="/about" component={About}>
             </Route>
+            <Route path="/projects/periodicTable" component={ProjectMiniPage}>
+            </Route>
+            
           </Switch>
         </Fragment>
       </Router>

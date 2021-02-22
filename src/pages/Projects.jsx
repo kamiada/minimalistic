@@ -16,7 +16,7 @@ class Projects extends Component {
           title="Periodic Table"
           description="Project done in React.js"
           tags={["React.Js", "Frontend"]}
-          href="/periodicTable"
+          href="periodicTable"
         />
         <Segment
           gif={HackathonApp}
@@ -31,7 +31,7 @@ class Projects extends Component {
             "Postman",
             "API",
           ]}
-          href="/Live"
+          href="Live"
         />
         <Segment
           gif={Dissertation}
@@ -39,7 +39,7 @@ class Projects extends Component {
           description="The focus of my dissertation was to create a prototype mobile app for Android phones, 
           which could improve the experience of visiting the city via customised tourism"
           tags={["Android", "Java", "Mobile App", "UX/UI"]}
-          href="/CustomisedTourism"
+          href="CustomisedTourism"
         />
         <Segment
           gif={PeriodicTable}
@@ -54,7 +54,7 @@ class Projects extends Component {
             "SQL",
             "Google Charts",
           ]}
-          href="/Tracker"
+          href="Tracker"
         />
         <Segment
           gif={PeriodicTable}
@@ -67,14 +67,14 @@ class Projects extends Component {
           title="Arctica"
           description="Uniy web game done during Global Game Jam 2019, focused on raising awareness about climate change"
           tags={["Unity", "Game", "C#", "Web"]}
-          href="/Arctica"
+          href="Arctica"
         />
         <Segment
           gif={PeriodicTable}
           title="Feel my feels"
           description="Game made for Global Game Jam 2018. "
           tags={["Unity", "Game", "C#", "Multiplayer"]}
-          href="/FeelMyFeels"
+          href="FeelMyFeels"
         />
       </div>
     );
