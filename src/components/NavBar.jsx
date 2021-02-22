@@ -52,7 +52,19 @@ class Navbar extends Component {
             </Route>
             <Route path="/projects/periodicTable" component={ProjectMiniPage}>
             </Route>
-            
+            <Route path="/projects/Live" component={ProjectMiniPage}>
+            </Route>
+            <Route path="/projects/CustomisedTourism" component={ProjectMiniPage}>
+            </Route>
+            <Route path="/projects/Tracker" component={ProjectMiniPage}>
+            </Route>
+            <Route path="/projects/PandaMediator" component={ProjectMiniPage}>
+            </Route>
+            <Route path="/projects/Arctica" >
+            <ProjectMiniPage text="Arctica" />
+            </Route>
+            <Route path="/projects/FeelMyFeels" component={ProjectMiniPage}>
+            </Route>
           </Switch>
         </Fragment>
       </Router>

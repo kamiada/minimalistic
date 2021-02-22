@@ -61,6 +61,7 @@ class Projects extends Component {
           title="Panda Mediator"
           description="Unity game done for Global Game Jam 2020. The theme for this game jam was relationship"
           tags={["Unity", "Game", "C#", "Point & Click", "Time constraints"]}
+          href="PandaMediator"
         />
         <Segment
           gif={Arctica}
