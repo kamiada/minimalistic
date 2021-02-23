@@ -44,11 +44,13 @@ class Navbar extends Component {
               </div>
             </ul>
           </nav>
+          {/* ROUTING HERE */}
           <Switch>
             <Route exact path="/" component={Home}></Route>
             <Route path="/skills" component={Skills}></Route>
             <Route exact path="/projects" component={Projects}></Route>
             <Route path="/about" component={About}></Route>
+            {/* ROUTING FOR OUTSIDE PROJECTS */}
             <Route
               path="/projects/periodicTable"
               component={ProjectMiniPage}
@@ -64,9 +66,7 @@ class Navbar extends Component {
               component={ProjectMiniPage}
             ></Route>
             <Route path="/projects/Arctica">
-              <ProjectMiniPage
-                id={data.projectsDescriptions[5]._id}
-              />
+              <ProjectMiniPage id={data.projectsDescriptions[5]._id} />
             </Route>
             <Route
               path="/projects/FeelMyFeels"
