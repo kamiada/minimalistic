@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
 .App {
   text-align: center;
-}
-header {
-  margin: 10%;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 20%;
 }
 .typingeffect {
-  font-family: 'Lato', sans-serif;
-  font-size: 50px;
+  font-family: monospace;
+  font-size: 20px;
 }
 .cardholder {
   display: flex;

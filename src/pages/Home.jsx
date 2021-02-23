@@ -10,8 +10,11 @@ class Home extends Component {
     render() {
         return (
             <div className="App">
-            <header>
-              <h2>
+            <div>
+              <img src="profile" alt="profile"/>
+            </div>
+            <div>
+            <h2>
                 <ReactTypingEffect
                   className="typingeffect"
                   text={[
@@ -22,7 +25,7 @@ class Home extends Component {
                   eraseDelay={100}
                 ></ReactTypingEffect>
               </h2>
-            </header>
+            </div>
             </div>
         )
     }
