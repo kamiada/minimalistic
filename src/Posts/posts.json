@@ -24,7 +24,7 @@
                 "Postman",
                 "API"
             ],
-            "post": "",
+            "post": "Live!",
             "links": [
                 "https://github.com/bbc/hackathon2020/tree/8-hacking-circus/8-hacking-circus/frontend/live"
             ]
@@ -38,7 +38,7 @@
                 "Mobile App",
                 "UX/UI"
             ],
-            "post": "",
+            "post": "mamama",
             "links": [
                 ""
             ]
@@ -54,10 +54,7 @@
                 "SQL",
                 "Google Charts"
             ],
-            "post": "",
-            "links": [
-                ""
-            ]
+            "post": "mamama"
         },
         {
             "_id": 4,
@@ -69,7 +66,7 @@
                 "Point & Click",
                 "Time constraints"
             ],
-            "post": "",
+            "post": "mamama",
             "links": [
                 "https://globalgamejam.org/2020/games/panda-mediator-6",
                 "https://github.com/kamiada/GameJam2020"
@@ -98,7 +95,7 @@
                 "C#",
                 "Multiplayer"
             ],
-            "post": "",
+            "post": "feels",
             "links": [
                 "https://kamiada.itch.io/feel-my-feels",
                 "https://github.com/marcomoroni/ggj-2018"

@@ -107,9 +107,11 @@ a {
 }
 .tag {
   background-color: #dfdfdf;
-  margin: 2px;
+  margin: 2px 2px 10px 2px;
   display: inline-block;
   padding: 2px;
+  font-family: monospace;
+  font-size: 20px;
 }
 .inside_text {
   position: absolute;
@@ -129,7 +131,8 @@ a {
 //Panel
 .panel {
   font-family: "Ubuntu", sans-serif;
-  background-color: #fdfbf6;
+  // background-color: #fce8ff;
+  background-color: #fef5ff;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 25px;

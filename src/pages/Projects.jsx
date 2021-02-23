@@ -75,7 +75,6 @@ class Projects extends Component {
           description="Game made for Global Game Jam 2018. "
           tags={["Unity", "Game", "C#", "Multiplayer"]}
           href="FeelMyFeels"
-          
         />
       </div>
     );
