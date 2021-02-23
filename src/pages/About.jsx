@@ -21,6 +21,13 @@ class About extends Component {
             University.
           </p>
         </div>
+        <div className="panel_container">
+          <Panel 
+            title="Fullstack Software Engineer for BBC Archives"
+            years="2020 - currently"
+            description="blah"
+          />
+        </div>
       </div>
     );
   }
