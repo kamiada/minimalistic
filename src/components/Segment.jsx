@@ -16,9 +16,11 @@ class Segment extends Component {
           pauseRef={(pause) => (this.pauseGif = pause)}
         />
         <div className="inside_text">
-          {this.props.tags && this.props.tags.length
+        <div className="segment_tags">
+        {this.props.tags && this.props.tags.length
             ? this.props.tags.map((element) => Tag(element))
             : ""}
+        </div>
             <div>
             <Link className="title_holder_segment" to={`/projects/${this.props.href}`}>
               {this.props.title}{" "}

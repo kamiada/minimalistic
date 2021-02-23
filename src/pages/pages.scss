@@ -25,6 +25,12 @@
   a {
     font-size: 20px;
   }
+  a:last-child {
+    margin:50px
+  }
+  a:first-child {
+    margin: 0;
+  }
 }
 
 .about_container {

@@ -8,9 +8,7 @@
                 "Frontend"
             ],
             "post": "mamama",
-            "links": [
-                "https://github.com/kamiada/Mendeleev-Table"
-            ]
+            "github": "https://github.com/kamiada/Mendeleev-Table"
         },
         {
             "_id": 1,
@@ -25,9 +23,7 @@
                 "API"
             ],
             "post": "Live!",
-            "links": [
-                "https://github.com/bbc/hackathon2020/tree/8-hacking-circus/8-hacking-circus/frontend/live"
-            ]
+            "github": "https://github.com/bbc/hackathon2020/tree/8-hacking-circus/8-hacking-circus/frontend/live"
         },
         {
             "_id": 2,
@@ -38,10 +34,7 @@
                 "Mobile App",
                 "UX/UI"
             ],
-            "post": "mamama",
-            "links": [
-                ""
-            ]
+            "post": "mamama"
         },
         {
             "_id": 3,
@@ -68,9 +61,9 @@
             ],
             "post": "mamama",
             "links": [
-                "https://globalgamejam.org/2020/games/panda-mediator-6",
-                "https://github.com/kamiada/GameJam2020"
-            ]
+                "https://globalgamejam.org/2020/games/panda-mediator-6"
+            ],
+            "github": "https://github.com/kamiada/GameJam2020"
         },
         {
             "_id": 5,
@@ -97,9 +90,9 @@
             ],
             "post": "feels",
             "links": [
-                "https://kamiada.itch.io/feel-my-feels",
-                "https://github.com/marcomoroni/ggj-2018"
-            ]
+                "https://kamiada.itch.io/feel-my-feels"
+            ],
+            "github": "https://github.com/marcomoroni/ggj-2018"
         }
     ]
 }

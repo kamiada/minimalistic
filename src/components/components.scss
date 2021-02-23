@@ -93,17 +93,21 @@ a {
   position: relative;
   text-align: center;
   margin: 30px;
-
+  border-style: solid;
+  border-color: #b5b5b5;
+  border-width: 10px;
   img {
     width: 450px;
     height: 350px;
     background-blend-mode: luminosity;
-    border-style: solid;
-    border-color: #b5b5b5;
-    border-width: 10px;
   }
   .gif_player {
+    filter:blur(1px);
+    height: 351px;
   }
+}
+.segment_tags {
+  width: 300px;
 }
 .tag {
   background-color: #dfdfdf;
@@ -132,11 +136,12 @@ a {
 .panel {
   font-family: "Ubuntu", sans-serif;
   // background-color: #fce8ff;
-  background-color: #fef5ff;
+  background-color: #3e1046;
+  color: #ffffff;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 25px;
-  padding: 5px 5px 5px 20px;
+  padding: 5px 5px 10px 20px;
   .paragraph_panel {
     font-size: 15px;
     padding-bottom: 10px;
