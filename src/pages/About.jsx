@@ -6,30 +6,39 @@ class About extends Component {
   render() {
     return (
       <div className="about_container">
+
         <div>
           <h1>Hi, I'am Adrianna, a software engineer for BBC Scotland.</h1>
         </div>
         <div>
           <p>
-            I work as a full-stack software engineer for BBC Archive Services,
-            and I am both interested in frontend and backend technologies. I
-            previously worked as a Student Assistant for Data Analytics module
-            in Edinburgh Napier University, Software Engineering Intern for
-            Computer Application Services and as a Helpdesk Assistant in Finance
-            Department of the University of Edinburgh. I finished BEng Computing
-            with 2:1 in Edinburgh Napier University.
-            <br/>
-            <br/>
-            My interests are focused on impact of technology on people's everyday life
-            and how technology can improve things. 
-            <br/>
-            <br/>
-
-            Outside that, I like learning about history of the world, write and read books
-            <br/>
-
+            I work as a full-stack software engineer for BBC Archive Services. I
+            am both interested in frontend and backend technologies. I really
+            like building web-apps with React, games in Unity Engine and
+            learning new programming languages and concepts. I am a bit of a
+            data geek and I like reading about AI and Data Science.
+            <br />
+            <br />
+            My interests are focused on impact of technology on people's
+            everyday life and how technology can improve things.
+            <br />
+            <br />
+            Outside that, I like learning about history of the world, write and
+            read books, doing yoga (when I don't feel lazy)travel and cook.
+            During lockdown I started an online book club in Edinburgh, and I
+            joined few other book clubs as well.
+            <br />
+            <br />
+            To find out more about me please check out my resume, or scroll down
+            😊
+            <br />
           </p>
         </div>
+
+        <div className="title_dividers">
+          <h2>Work history</h2>
+        </div>
+
         <div className="panel_container">
           <Panel
             title="Fullstack Software Engineer for BBC Archives"
@@ -52,6 +61,19 @@ class About extends Component {
             description={["blah"]}
           />
         </div>
+
+        <div className="title_dividers">
+          <h2>Education</h2>
+        </div>
+
+        <div className="panel_container">
+        <Panel
+            title="BEng Computing in Edinburgh Napier University"
+            years="finished in 2019"
+            description={["blah"]}
+          />
+        </div>
+
       </div>
     );
   }
