@@ -15,7 +15,7 @@
 
 .page_container {
   font-size: 40px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: monospace;
   text-align: center;
 }
 
@@ -26,10 +26,19 @@
   margin-top: 5%;
   h1 {
     text-align: center;
-    font-family: "Ubuntu", sans-serif;
+    font-family: monospace;
     margin-bottom: 30px;
   }
   p {
     font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
+}
+
+.App {
+  img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
   }
 }

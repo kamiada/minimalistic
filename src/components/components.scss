@@ -127,7 +127,16 @@ a {
 }
 
 //Panel
-.panel_container {
+.panel {
   font-family: "Ubuntu", sans-serif;
-
+  background-color: #fdfbf6;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  padding: 5px 5px 5px 20px;
+  .paragraph_panel {
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
 }

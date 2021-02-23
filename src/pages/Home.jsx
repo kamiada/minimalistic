@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../App.css";
 import ReactTypingEffect from "react-typing-effect";
-
-
+import profile from '../profilePic/profile.jpg';
+import './pages.scss';
 
 class Home extends Component {
 
@@ -11,7 +11,7 @@ class Home extends Component {
         return (
             <div className="App">
             <div>
-              <img src="profile" alt="profile"/>
+              <img src={profile} alt="profile"/>
             </div>
             <div>
             <h2>

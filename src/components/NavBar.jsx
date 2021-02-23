@@ -19,13 +19,13 @@ class Navbar extends Component {
                 <a href="/">Home</a>
               </li>
               <li class="nav-item">
+                <a href="/about">About</a>
+              </li>
+              <li class="nav-item">
                 <a href="/skills">Skills</a>
               </li>
               <li class="nav-item">
                 <a href="/projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a href="/about">About</a>
               </li>
               <div className="social_parent">
                 <li>
@@ -47,9 +47,9 @@ class Navbar extends Component {
           {/* ROUTING HERE */}
           <Switch>
             <Route exact path="/" component={Home}></Route>
+            <Route path="/about" component={About}></Route>
             <Route path="/skills" component={Skills}></Route>
             <Route exact path="/projects" component={Projects}></Route>
-            <Route path="/about" component={About}></Route>
             {/* ROUTING FOR OUTSIDE PROJECTS */}
             <Route
               path="/projects/periodicTable"
