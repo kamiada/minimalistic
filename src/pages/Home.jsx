@@ -1,34 +1,30 @@
 import React, { Component } from "react";
 import "../App.css";
-import ReactTypingEffect from "react-typing-effect";
-import profile from '../profilePic/profile.jpg';
-import './pages.scss';
+import Typewriter from "typewriter-effect";
+import profile from "../profilePic/profile.jpg";
+import "./pages.scss";
 
 class Home extends Component {
-
-
-    render() {
-        return (
-            <div className="App">
-            <div>
-              <img src={profile} alt="profile"/>
-            </div>
-            <div>
-            <h2>
-                <ReactTypingEffect
-                  className="typingeffect"
-                  text={[
-                    "Hi, my name is Adrianna, I am a software engineer",
-                    "Welcome to my Website",
-                  ]}
-                  speed={50}
-                  eraseDelay={100}
-                ></ReactTypingEffect>
-              </h2>
-            </div>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="App">
+        <div>
+          <img src={profile} alt="profile" />
+        </div>
+        <div>
+          <h2>
+            <Typewriter
+              options={{
+                strings: ["Hi, my name is Adrianna, I am a software engineer", "Welcome to my Website"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h2>
+        </div>
+      </div>
+    );
+  }
 }
 export default Home;
 
@@ -49,20 +45,20 @@ export default Home;
 
 //   render() {
 //     return (
-    //   <div className="App">
-    //     <header>
-    //       <h2>
-    //         <ReactTypingEffect
-    //           className="typingeffect"
-    //           text={[
-    //             "Hi, my name is Adrianna, I am a software engineer",
-    //             "Welcome to my Website",
-    //           ]}
-    //           speed={100}
-    //           eraseDelay={100}
-    //         ></ReactTypingEffect>
-    //       </h2>
-    //     </header>
+//   <div className="App">
+//     <header>
+//       <h2>
+//         <ReactTypingEffect
+//           className="typingeffect"
+//           text={[
+//             "Hi, my name is Adrianna, I am a software engineer",
+//             "Welcome to my Website",
+//           ]}
+//           speed={100}
+//           eraseDelay={100}
+//         ></ReactTypingEffect>
+//       </h2>
+//     </header>
 //         <body>
 //           <Router>
 //             <div className="cardholder">
@@ -100,4 +96,3 @@ export default Home;
 //   }
 // }
 // export default Home;
-

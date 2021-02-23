@@ -14,3 +14,7 @@
 .cardholder {
   display: flex;
 }
+.Typewriter {
+  font-family: monospace;
+  font-size: 20px;
+}
