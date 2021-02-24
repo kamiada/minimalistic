@@ -21,7 +21,7 @@ class Segment extends Component {
             ? this.props.tags.map((element) => Tag(element))
             : ""}
         </div>
-            <div>
+            <div className="border_title">
             <Link className="title_holder_segment" to={`/projects/${this.props.href}`}>
               {this.props.title}{" "}
           </Link>
