@@ -6,7 +6,6 @@ class About extends Component {
   render() {
     return (
       <div className="about_container">
-
         <div>
           <h1>Hi, I'am Adrianna, a software engineer for BBC Scotland.</h1>
         </div>
@@ -24,7 +23,7 @@ class About extends Component {
             <br />
             <br />
             Outside that, I like learning about history of the world, write and
-            read books, doing yoga (when I don't feel lazy)travel and cook.
+            read books, doing yoga (when I don't feel lazy), travel and cook.
             During lockdown I started an online book club in Edinburgh, and I
             joined few other book clubs as well.
             <br />
@@ -36,7 +35,9 @@ class About extends Component {
         </div>
 
         <div className="title_dividers">
+          <hr />
           <h2>Work history</h2>
+          <hr />
         </div>
 
         <div className="panel_container">
@@ -63,17 +64,18 @@ class About extends Component {
         </div>
 
         <div className="title_dividers">
+          <hr />
           <h2>Education</h2>
+          <hr />
         </div>
 
         <div className="panel_container">
-        <Panel
+          <Panel
             title="BEng Computing in Edinburgh Napier University"
             years="finished in 2019"
             description={["blah"]}
           />
         </div>
-
       </div>
     );
   }

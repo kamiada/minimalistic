@@ -50,15 +50,22 @@
   }
 }
 .title_dividers {
+  display: flex;
+  justify-content: center;
   h2 {
     text-align: center;
     font-family: monospace;
     margin-top: 30px;
     font-size: 30px;
   }
-  .border {
-    border: 10px solid red;
-  }
+  hr {
+    flex: 1;
+    height: 3px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: 6%;
+    padding: 0;
+}
 }
 
 .App {
