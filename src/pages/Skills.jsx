@@ -15,7 +15,7 @@ class Skills extends Component {
             CSS, SASS, HTML + JAVASCRIPT
             
           </div>
-          <hr />
+          <div className="animatedLine" />
           <h2>TECHNOLOGIES & SKILLS</h2>
           <div className="skills">
           NODE.JS

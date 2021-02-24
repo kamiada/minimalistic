@@ -44,7 +44,7 @@ class Minipage extends Component {
                 className="linkToProject"
                 href={data.projectsDescriptions[id].github}
               >
-                View the source code
+                {"</> View the source code"}
               </a>
             ) : (
               ""
