@@ -59,7 +59,6 @@ a {
 }
 .nav-item {
   margin-top: 10px;
-
   a {
     background-color: $RussianViolet;
     color: $SoftWhite;
@@ -135,4 +134,12 @@ a {
     padding-bottom: 10px;
     padding-left: 10px;
   }
+}
+
+
+//animated title
+.title_holder {
+  margin-right: 15px;
+  animation-name: loadLine;
+  animation-duration: 15s;
 }

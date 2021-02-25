@@ -27,6 +27,9 @@ class Navbar extends Component {
               <li class="nav-item">
                 <a href="/projects">Projects</a>
               </li>
+              <li class="nav-item">
+              <a href="test">Resume</a>
+              </li>
               <div className="social_parent">
                 <li>
                   <a
