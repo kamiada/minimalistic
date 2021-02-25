@@ -135,6 +135,22 @@ a {
     padding-left: 10px;
   }
 }
+.holder_triples {
+  li {
+    list-style-type: none;
+  }
+  .first_holder {
+    float:left;
+    width: 150px;
+  }
+  .second_holder {
+    width: 150px;
+  }
+  .third_holder {
+    float:right;
+    width: 150px;
+  }
+}
 
 
 //animated title

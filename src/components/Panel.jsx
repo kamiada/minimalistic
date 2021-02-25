@@ -1,5 +1,3 @@
-//inspired by Google panels
-
 import React, { Component } from "react";
 import "./components.scss";
 
