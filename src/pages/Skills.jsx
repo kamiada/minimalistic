@@ -19,6 +19,9 @@ const techSkills = [
   "ANDROID",
   "GIT/GITHUB",
   "MICROSERVICES",
+  "BDD",
+  "TDD",
+  "C4",
   "UNITY ENGINE",
 ];
 
