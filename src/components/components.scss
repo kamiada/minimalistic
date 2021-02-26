@@ -136,6 +136,7 @@ a {
   }
 }
 .holder_triples {
+  display: flex;
   li {
     list-style-type: none;
   }
@@ -145,10 +146,20 @@ a {
   }
   .second_holder {
     width: 150px;
+    margin: 0 auto auto auto;
   }
   .third_holder {
     float:right;
     width: 150px;
+  }
+}
+.titles_panel {
+  display: flex;
+  h3 {
+    margin-right: 10px;
+  }
+  .grade {
+    float: right;
   }
 }
 

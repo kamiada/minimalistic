@@ -96,6 +96,7 @@ class About extends Component {
           <WidePanel
             title="BEng Computing in Edinburgh Napier University"
             years="finished in 2019"
+            grade="2:1"
             first={[
               "Computational Intelligence",
               "Computing in Contemporary Society",
