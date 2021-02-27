@@ -61,6 +61,7 @@ class Navbar extends Component {
             <Route path="/projects/Live" component={ProjectMiniPage}>
               <ProjectMiniPage id={data.projectsDescriptions[1]._id} 
                 image={LivePic}
+                imageALT="project done for BBC Platform Hackathon"
               />
             </Route>
             <Route

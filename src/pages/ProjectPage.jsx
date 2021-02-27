@@ -6,7 +6,15 @@ const Tag = (title) => {
   return <div className="tag">{title}</div>;
 };
 
+const enlargeImage = () => {
+  const image = document.getElementById("img");
+  image.style.transform = "scale(1.5)"; 
+  image.style.transition = "transform 0.25s ease"; 
+  console.log('click')
+}
+
 class Minipage extends Component {
+
   render() {
     const id = Number.parseInt(this.props.id);
     return (
@@ -32,7 +40,7 @@ class Minipage extends Component {
             )}
           </div>
           <div className="page_image_holder">
-          <img src={this.props.image} alt={this.props.imageALT}/>
+          <img id="img" src={this.props.image} alt={this.props.imageALT} onClick={this.enlargeImage()}/>
           </div>
           <div className="links_container">
             {this.props.id &&
