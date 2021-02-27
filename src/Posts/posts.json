@@ -7,7 +7,7 @@
                 "React.Js",
                 "Frontend"
             ],
-            "post": "mamama",
+            "post": "The purpose of this project was to learn more about CSS properties and React. I wanted to build something which could be used for free by students who want to learn about Periodic Table, and have this information easy to access and in visually pleasant form.\n During building the Table I found ways of how to do it, but sadly I settled with manual adding elements due to interactivity. In order to place elements in correct way, I decided to use grid in CSS : it was easier for visualisation and placement of non empty cells into the table. ",
             "github": "https://github.com/kamiada/Mendeleev-Table"
         },
         {

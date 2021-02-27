@@ -16,17 +16,21 @@ class Minipage extends Component {
             {this.props.id && <h1>{data.projectsDescriptions[id].title}</h1>}
           </div>
           <div className="tag_container">
-          {this.props.id && data.projectsDescriptions[id].tags.length > 0
-            ? data.projectsDescriptions[id].tags.map((tag) => {
-                return Tag(tag)
-              })
-            : ""}
-        </div>
-          {this.props.id ? (
-            <p>{data.projectsDescriptions[id].post}</p>
-          ) : (
-            "There is no post assosciated wit this project"
-          )}
+            {this.props.id && data.projectsDescriptions[id].tags.length > 0
+              ? data.projectsDescriptions[id].tags.map((tag) => {
+                  return Tag(tag);
+                })
+              : ""}
+          </div>
+          <div className="page_description">
+            {this.props.id ? (
+              <span>
+                {data.projectsDescriptions[id].post}
+              </span>
+            ) : (
+              "There is no post assosciated wit this project"
+            )}
+          </div>
           <div className="links_container">
             {this.props.id &&
             data.projectsDescriptions[id].links &&
