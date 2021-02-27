@@ -6,15 +6,24 @@ const Tag = (title) => {
   return <div className="tag">{title}</div>;
 };
 
-const enlargeImage = () => {
-  const image = document.getElementById("img");
-  image.style.transform = "scale(1.5)"; 
-  image.style.transition = "transform 0.25s ease"; 
-}
-
 class Minipage extends Component {
   state = {
     onClick: false,
+  }
+  enlargeImage = () => {
+    const image = document.getElementById("img");
+    image.style.transform = "scale(1.5)"; 
+    image.style.transition = "transform 0.25s ease"; 
+    this.setState({
+      onClick:true
+    })
+    if(this.state.onClick === true){
+      this.setState({
+        onClick:false
+      })
+      image.style.transform = "none"; 
+      image.style.transition = "transform 0.25s ease"; 
+    }
   }
   render() {
     const id = Number.parseInt(this.props.id);
@@ -41,7 +50,7 @@ class Minipage extends Component {
             )}
           </div>
           <div className="page_image_holder">
-          <img id="img" src={this.props.image} alt={this.props.imageALT} onClick={() => enlargeImage()}/>
+          <img id="img" src={this.props.image} alt={this.props.imageALT} onClick={() => this.enlargeImage()}/>
           </div>
           <div className="links_container">
             {this.props.id &&
