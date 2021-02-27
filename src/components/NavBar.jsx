@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./components.scss";
 import { Home, Skills, Projects, About, ProjectMiniPage } from "../pages";
+import LivePic from '../gifs_examples/React App.png';
 import GithubIcon from "../icons/GitHub-Mark-Light-64px.png";
 import Linkedin from "../icons/whiteLinkedin.png";
 import data from "../Posts/posts.json";
@@ -58,7 +59,9 @@ class Navbar extends Component {
               <ProjectMiniPage id='0' />
             </Route>
             <Route path="/projects/Live" component={ProjectMiniPage}>
-              <ProjectMiniPage id={data.projectsDescriptions[1]._id} />
+              <ProjectMiniPage id={data.projectsDescriptions[1]._id} 
+                image={LivePic}
+              />
             </Route>
             <Route
               path="/projects/CustomisedTourism"

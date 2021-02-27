@@ -24,12 +24,15 @@ class Minipage extends Component {
           </div>
           <div className="page_description">
             {this.props.id ? (
-              <span>
+              <p>
                 {data.projectsDescriptions[id].post}
-              </span>
+              </p>
             ) : (
               "There is no post assosciated wit this project"
             )}
+          </div>
+          <div className="page_image_holder">
+          <img src={this.props.image} alt={this.props.imageALT}/>
           </div>
           <div className="links_container">
             {this.props.id &&
