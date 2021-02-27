@@ -47,7 +47,7 @@
                 "SQL",
                 "Google Charts"
             ],
-            "post": "mamama"
+            "post": "Tracker (or more accuretly: trackers) are my internship project which I have done for Computer Application Services in Edinburgh, during summer 2019. CAS has it's software WorkPro focused on integrating with web forms, social media and company systems, allowing HR and other this type of departments better workflow - both for them and their users. But in order to improve WorkPro and understand how users are using it - what features are the most popular, what features are rarely used or even should be removed, we needed a data about users behaviour. Therefore, my project was focused on gathering this data, by creating trackers on each page, which user enters. When users move to another page - tracker dies and sends info to our database, with user's randomly generated id. Then on next page on which user is, new tracker is following user, till again, user moves to another page and so on. The data then is used to generate Sankey diagram with use of Google Charts (JS library for generating graphs and diagrams). This project taught me a lot about data analytics, data gathering and working on large, old codebases like the one for WorkPro. Most of the programming was done with use of C#.Net and in some parts - JavaScript. The most challanging part of the project was flattening data - Google Charts requires for Sankey flat data with no repeating 'locations'. I am proud to say, that by the September the project was working and performing and in 2020, was officially added to WorkPro as one of the admin features to collect users behaviour for better performance of the software"
         },
         {
             "_id": 4,
@@ -59,7 +59,7 @@
                 "Point & Click",
                 "Time constraints"
             ],
-            "post": "mamama",
+            "post": "The theme of the Global Game Jam in January 2020 where relationships, therefore over the weekend me and my friend build this little game. My friend Marco took care of the design and art, while I programmed the game and sorted other things in Unity Engine. ",
             "links": [
                 "https://globalgamejam.org/2020/games/panda-mediator-6"
             ],
@@ -74,7 +74,7 @@
                 "C#",
                 "Web"
             ],
-            "post": "mamama",
+            "post": "The theme of the Global Game Jam in January 2019 was home, which made me think about my home region in Poland - Silesia, a place which struggles with big pollution problems. This made me and my team think about pollution around the world and what it does to it. In effect me and my three other teammates created this game called Arctica, which is available on itch.io page of my friend Toran. My part during creation of this project was animating characters in Unity and a bit of programming for interface. In the game player needs to feed alone polar bear with penguins and seals on the iceberg, while the iceberg is quickly breaking apart. This was to show how real life polar bears must feel rigth now and how big is the problem of the global warming.",
             "links": [
                 "https://torantula.itch.io/arctica"
             ]
@@ -88,7 +88,7 @@
                 "C#",
                 "Multiplayer"
             ],
-            "post": "feels",
+            "post": "The theme of the Global Game Jam in January 2018 where feelings. Me and my other three teammates decided to build multiplayer game where users needs to make the other person feel same way how they feel - due to the short time our extremely talented artist managed to create just two feelings-character: love and anger. Players can use controllers to control them and steal from each other little followers who change their appearance depending to which feeling dominates them. The swift and difficult movement adds playablity to the game and more fun (at least in my opinion). My work during this project was programming alongside two other programmers. I was taking care of the player's characters, while my other teammate was programming menu and another one AI for followers.",
             "links": [
                 "https://kamiada.itch.io/feel-my-feels"
             ],
