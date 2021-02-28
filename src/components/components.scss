@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import "src/_variables.scss";
 
-
 button {
   border: none;
   text-decoration: none;
@@ -83,7 +82,7 @@ a {
     background-blend-mode: luminosity;
   }
   .gif_player {
-    filter:blur(1px);
+    filter: blur(1px);
     height: 351px;
   }
 }
@@ -111,19 +110,18 @@ a {
   font-weight: bold;
   font-size: 20px;
   border-radius: 25px;
-
+  background-color: transparent;
 }
 .border_title {
   background-color: whitesmoke;
   border: 3px solid #4286f4;
+  padding: 5px;
   border-radius: 25px;
 }
 .empty_segment {
   width: 450px;
   height: 350px;
 }
-
-
 
 //Panel
 .panel {
@@ -147,7 +145,7 @@ a {
     list-style-type: none;
   }
   .first_holder {
-    float:left;
+    float: left;
     width: 150px;
   }
   .second_holder {
@@ -155,7 +153,7 @@ a {
     margin: 0 auto auto auto;
   }
   .third_holder {
-    float:right;
+    float: right;
     width: 150px;
   }
 }
@@ -168,7 +166,6 @@ a {
     float: right;
   }
 }
-
 
 //animated title
 .title_holder {
