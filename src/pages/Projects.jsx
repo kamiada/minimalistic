@@ -41,7 +41,6 @@ class Projects extends Component {
           href="CustomisedTourism"
         />
         <Segment
-          gif={PeriodicTable}
           title="Tracker"
           description="Internship project for CAS Ltd, focused on developing a tracking tool with purpose of gathering user 
           data regarding how users are using Workpro software in their everyday tasks."

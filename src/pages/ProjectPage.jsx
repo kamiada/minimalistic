@@ -48,18 +48,22 @@ class Minipage extends Component {
             )}
           </div>
           <div className="page_image_holder">
-            <img
-              className="page_image"
-              id="img"
-              src={this.props.image}
-              alt={this.props.imageALT}
-              onClick={() => this.enlargeImage()}
-            />
-            <img
-              className="img_gif"
-              src={this.props.gif}
-              alt={this.props.gifALT}
-            />
+            {this.props.image && (
+              <img
+                className="page_image"
+                id="img"
+                src={this.props.image}
+                alt={this.props.imageALT}
+                onClick={() => this.enlargeImage()}
+              />
+            )}
+            {this.props.gif && (
+              <img
+                className="img_gif"
+                src={this.props.gif}
+                alt={this.props.gifALT}
+              />
+            )}
           </div>
           <div className="links_container">
             {this.props.id &&

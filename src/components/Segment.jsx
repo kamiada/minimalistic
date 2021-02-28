@@ -11,10 +11,15 @@ class Segment extends Component {
   render() {
     return (
       <div className="segment">
+      {
+        this.props.gif ? 
         <GifPlayer
           gif={this.props.gif}
           pauseRef={(pause) => (this.pauseGif = pause)}
-        />
+        /> :
+        <div className="empty_segment" />
+      }
+       
         <div className="inside_text">
         <div className="segment_tags">
         {this.props.tags && this.props.tags.length
