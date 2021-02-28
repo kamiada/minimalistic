@@ -4,6 +4,8 @@ import "./components.scss";
 import { Home, Skills, Projects, About, ProjectMiniPage } from "../pages";
 import LivePic from "../gifs_examples/React App.png";
 import MobileApp from "../gifs_examples/AdriannaKaminkaPosterFinal.png";
+import Arctica from '../gifs_examples/arctica.gif';
+import periodicTable from '../gifs_examples/periodicTableUpdate.gif';
 import GithubIcon from "../icons/GitHub-Mark-Light-64px.png";
 import Linkedin from "../icons/whiteLinkedin.png";
 import data from "../Posts/posts.json";
@@ -57,7 +59,10 @@ class Navbar extends Component {
             <Route exact path="/projects" component={Projects}></Route>
             {/* ROUTING FOR OUTSIDE PROJECTS */}
             <Route path="/projects/periodicTable" component={ProjectMiniPage}>
-              <ProjectMiniPage id="0" />
+              <ProjectMiniPage id="0" 
+                 gif={periodicTable}
+                gifeALT="periodic table"
+              />
             </Route>
             <Route path="/projects/Live" component={ProjectMiniPage}>
               <ProjectMiniPage
@@ -70,9 +75,10 @@ class Navbar extends Component {
               path="/projects/CustomisedTourism"
               component={ProjectMiniPage}
             >
-              <ProjectMiniPage id={data.projectsDescriptions[2]._id} 
-                 image={MobileApp}
-              imageALT="dissertation poster for mobile app"
+              <ProjectMiniPage
+                id={data.projectsDescriptions[2]._id}
+                image={MobileApp}
+                imageALT="dissertation poster for mobile app"
               />
             </Route>
             <Route path="/projects/Tracker" component={ProjectMiniPage}>
@@ -82,7 +88,10 @@ class Navbar extends Component {
               <ProjectMiniPage id={data.projectsDescriptions[4]._id} />
             </Route>
             <Route path="/projects/Arctica">
-              <ProjectMiniPage id={data.projectsDescriptions[5]._id} />
+              <ProjectMiniPage id={data.projectsDescriptions[5]._id} 
+                 image={Arctica}
+                imageALT="arctica web game done in unity"
+              />
             </Route>
             <Route path="/projects/FeelMyFeels" component={ProjectMiniPage}>
               <ProjectMiniPage id={data.projectsDescriptions[6]._id} />

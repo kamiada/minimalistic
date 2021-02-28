@@ -9,22 +9,22 @@ const Tag = (title) => {
 class Minipage extends Component {
   state = {
     onClick: false,
-  }
+  };
   enlargeImage = () => {
     const image = document.getElementById("img");
-    image.style.transform = "scale(5.5)"; 
-    image.style.transition = "transform 0.25s ease"; 
+    image.style.transform = "scale(5.5)";
+    image.style.transition = "transform 0.25s ease";
     this.setState({
-      onClick:true
-    })
-    if(this.state.onClick === true){
+      onClick: true,
+    });
+    if (this.state.onClick === true) {
       this.setState({
-        onClick:false
-      })
-      image.style.transform = "none"; 
-      image.style.transition = "transform 0.25s ease"; 
+        onClick: false,
+      });
+      image.style.transform = "none";
+      image.style.transition = "transform 0.25s ease";
     }
-  }
+  };
   render() {
     const id = Number.parseInt(this.props.id);
     return (
@@ -42,15 +42,24 @@ class Minipage extends Component {
           </div>
           <div className="page_description">
             {this.props.id ? (
-              <p>
-                {data.projectsDescriptions[id].post}
-              </p>
+              <p>{data.projectsDescriptions[id].post}</p>
             ) : (
               "There is no post assosciated wit this project"
             )}
           </div>
           <div className="page_image_holder">
-          <img id="img" src={this.props.image} alt={this.props.imageALT} onClick={() => this.enlargeImage()}/>
+            <img
+              className="page_image"
+              id="img"
+              src={this.props.image}
+              alt={this.props.imageALT}
+              onClick={() => this.enlargeImage()}
+            />
+            <img
+              className="img_gif"
+              src={this.props.gif}
+              alt={this.props.gifALT}
+            />
           </div>
           <div className="links_container">
             {this.props.id &&
