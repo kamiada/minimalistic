@@ -2,7 +2,8 @@ import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./components.scss";
 import { Home, Skills, Projects, About, ProjectMiniPage } from "../pages";
-import LivePic from '../gifs_examples/React App.png';
+import LivePic from "../gifs_examples/React App.png";
+import MobileApp from "../gifs_examples/AdriannaKaminkaPosterFinal.png";
 import GithubIcon from "../icons/GitHub-Mark-Light-64px.png";
 import Linkedin from "../icons/whiteLinkedin.png";
 import data from "../Posts/posts.json";
@@ -29,7 +30,7 @@ class Navbar extends Component {
                 <a href="/projects">Projects</a>
               </li>
               <li class="nav-item">
-              <a href="test">Resume</a>
+                <a href="test">Resume</a>
               </li>
               <div className="social_parent">
                 <li>
@@ -56,10 +57,11 @@ class Navbar extends Component {
             <Route exact path="/projects" component={Projects}></Route>
             {/* ROUTING FOR OUTSIDE PROJECTS */}
             <Route path="/projects/periodicTable" component={ProjectMiniPage}>
-              <ProjectMiniPage id='0' />
+              <ProjectMiniPage id="0" />
             </Route>
             <Route path="/projects/Live" component={ProjectMiniPage}>
-              <ProjectMiniPage id={data.projectsDescriptions[1]._id} 
+              <ProjectMiniPage
+                id={data.projectsDescriptions[1]._id}
                 image={LivePic}
                 imageALT="project done for BBC Platform Hackathon"
               />
@@ -68,7 +70,10 @@ class Navbar extends Component {
               path="/projects/CustomisedTourism"
               component={ProjectMiniPage}
             >
-              <ProjectMiniPage id={data.projectsDescriptions[2]._id} />
+              <ProjectMiniPage id={data.projectsDescriptions[2]._id} 
+                 image={MobileApp}
+              imageALT="dissertation poster for mobile app"
+              />
             </Route>
             <Route path="/projects/Tracker" component={ProjectMiniPage}>
               <ProjectMiniPage id={data.projectsDescriptions[3]._id} />

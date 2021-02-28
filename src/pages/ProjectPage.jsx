@@ -12,7 +12,7 @@ class Minipage extends Component {
   }
   enlargeImage = () => {
     const image = document.getElementById("img");
-    image.style.transform = "scale(1.5)"; 
+    image.style.transform = "scale(5.5)"; 
     image.style.transition = "transform 0.25s ease"; 
     this.setState({
       onClick:true

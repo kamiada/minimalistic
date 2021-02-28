@@ -34,7 +34,8 @@
                 "Mobile App",
                 "UX/UI"
             ],
-            "post": "mamama"
+            "post": "The inspiration for this project was my fascination with history and visiting beautiful city of Budapest and experiencing few Fringe Festivals in Edinburgh. During this time city was extremely overcrowded which was making living in it highly difficult - Edinburgh is an old medieval city and most of the famous tourist attractions are in the center of it, close to the Castle. Having a mobile app which could help you discover less known or popular places, tailored to what you need could improve the experience of visiting new city and make it more familiar and friendly for the person. During this project I needed to learn both Android Studio development and Java for mobile applications, in the mean time also managing my university work. My project was also presented during Ada Lovelace Colloquium (for that please check links below).",
+            "links": ["https://bcswomenlovelace.bcs.org/?page_id=286", "https://bcswomenlovelace.bcs.org/wp-content/uploads/Abstractbook2020BCSWomen_Lovelace_Colloquium.pdf"]
         },
         {
             "_id": 3,
@@ -59,7 +60,7 @@
                 "Point & Click",
                 "Time constraints"
             ],
-            "post": "The theme of the Global Game Jam in January 2020 where relationships, therefore over the weekend me and my friend build this little game. My friend Marco took care of the design and art, while I programmed the game and sorted other things in Unity Engine. ",
+            "post": "The theme of the Global Game Jam in January 2020 where relationships, therefore over the weekend me and my friend build this little game. My friend Marco took care of the design and art, while I programmed the game and sorted other things in Unity Engine. In game player plays the Panda Mediator, who's task is to fulfil the wishes of the Crocodile Dictator over the phone. Player needs to run around the room and randomly pick food which Dictator wants, but his needs changes very quickly. Game is set for the player to fail no matter what, because it's impossible to fulfil the needs of the dictator, no matter how hard player tries.",
             "links": [
                 "https://globalgamejam.org/2020/games/panda-mediator-6"
             ],
