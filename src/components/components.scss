@@ -28,7 +28,7 @@ a {
     background-color: transparent;
     position: absolute;
     bottom: 0;
-    margin-bottom: 0%;
+    margin-bottom: 25%;
     margin-top: 10px;
     &--linkedin {
       img {
@@ -38,6 +38,7 @@ a {
       background-color: transparent;
       position: absolute;
       bottom: 0;
+      margin-bottom: 70%;
     }
   }
   span {
@@ -182,5 +183,10 @@ a {
   font-family: monospace;
   position: absolute;
   bottom: 0;
-  right: 0;
+  margin-bottom: 0%;
+  margin-top: 10px;
+  span {
+    font-size: small;
+    margin-right: 0;
+  }
 }
