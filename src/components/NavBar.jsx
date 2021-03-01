@@ -34,6 +34,9 @@ class Navbar extends Component {
                 <li class="nav-item">
                   <a href="test">Resume</a>
                 </li>
+                <li class="nav-item">
+                  <a href="/contact">Contact Me</a>
+                </li>
                 <div className="social_parent">
                   <li>
                     <a
@@ -57,6 +60,7 @@ class Navbar extends Component {
               <Route path="/about" component={About}></Route>
               <Route path="/skills" component={Skills}></Route>
               <Route exact path="/projects" component={Projects}></Route>
+              <Route exact path="/contact" component={Contact}></Route>
               {/* ROUTING FOR OUTSIDE PROJECTS */}
               <Route path="/projects/periodicTable" component={ProjectMiniPage}>
                 <ProjectMiniPage
