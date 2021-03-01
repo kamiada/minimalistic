@@ -87,6 +87,17 @@ class Minipage extends Component {
             ) : (
               ""
             )}
+            {this.props.id &&
+            data.projectsDescriptions[id].outsideLinks &&
+            data.projectsDescriptions[id].outsideLinks.length > 0
+              ? data.projectsDescriptions[id].outsideLinks.map((el) => {
+                  return (
+                    <a className="linkToProject" href={el}>
+                      Links to Ada Lovelace Colloquium 2020
+                    </a>
+                  );
+                })
+              : ""}
           </div>
         </div>
       </body>
