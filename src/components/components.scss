@@ -173,3 +173,14 @@ a {
   animation-name: loadLine;
   animation-duration: 15s;
 }
+
+
+//Footer
+.footer {
+  margin-top: 10px;
+  color: $SoftWhite;
+  font-family: monospace;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
