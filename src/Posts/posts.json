@@ -12,6 +12,18 @@
         },
         {
             "_id": 1,
+            "title": "Covid-19 dashboards!",
+            "tags": [
+                "React.Js",
+                "Chart.JS",
+                "Node.JS",
+                "JavaScript"
+            ],
+            "post": "The data ",
+            "github": "https://github.com/kamiada/chart_dashboard"
+        },
+        {
+            "_id": 2,
             "title": "Live!",
             "tags": [
                 "React.Js",
@@ -26,7 +38,7 @@
             "github": "https://github.com/bbc/hackathon2020/tree/8-hacking-circus/8-hacking-circus/frontend/live"
         },
         {
-            "_id": 2,
+            "_id": 3,
             "title": "The prototype of a mobile application for customised tourism in Edinburgh",
             "tags": [
                 "Android",
@@ -38,7 +50,7 @@
             "outsideLinks": ["https://bcswomenlovelace.bcs.org/?page_id=286", "https://bcswomenlovelace.bcs.org/wp-content/uploads/Abstractbook2020BCSWomen_Lovelace_Colloquium.pdf"]
         },
         {
-            "_id": 3,
+            "_id": 4,
             "title": "Tracker",
             "tags": [
                 "C#.Net",
@@ -67,7 +79,7 @@
             "github": "https://github.com/kamiada/GameJam2020"
         },
         {
-            "_id": 5,
+            "_id": 6,
             "title": "Arctica",
             "tags": [
                 "Unity",
@@ -81,7 +93,7 @@
             ]
         },
         {
-            "_id": 6,
+            "_id": 7,
             "title": "Feel my feels",
             "tags": [
                 "Unity",

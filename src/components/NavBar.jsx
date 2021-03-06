@@ -80,9 +80,16 @@ class Navbar extends Component {
                 gifeALT="periodic table"
               />
             </Route>
-            <Route path="/projects/Live" component={ProjectMiniPage}>
+            <Route path="/projects/covid_dashboard" component={ProjectMiniPage}>
               <ProjectMiniPage
                 id={data.projectsDescriptions[1]._id}
+                image={LivePic}
+                imageALT="covid dashboard"
+              />
+            </Route>
+            <Route path="/projects/Live" component={ProjectMiniPage}>
+              <ProjectMiniPage
+                id={data.projectsDescriptions[2]._id}
                 image={LivePic}
                 imageALT="project done for BBC Platform Hackathon"
               />
@@ -92,26 +99,26 @@ class Navbar extends Component {
               component={ProjectMiniPage}
             >
               <ProjectMiniPage
-                id={data.projectsDescriptions[2]._id}
+                id={data.projectsDescriptions[3]._id}
                 image={MobileApp}
                 imageALT="dissertation poster for mobile app"
               />
             </Route>
             <Route path="/projects/Tracker" component={ProjectMiniPage}>
-              <ProjectMiniPage id={data.projectsDescriptions[3]._id} />
+              <ProjectMiniPage id={data.projectsDescriptions[4]._id} />
             </Route>
             <Route path="/projects/PandaMediator" component={ProjectMiniPage}>
-              <ProjectMiniPage id={data.projectsDescriptions[4]._id} />
+              <ProjectMiniPage id={data.projectsDescriptions[5]._id} />
             </Route>
             <Route path="/projects/Arctica">
               <ProjectMiniPage
-                id={data.projectsDescriptions[5]._id}
+                id={data.projectsDescriptions[6]._id}
                 image={Arctica}
                 imageALT="arctica web game done in unity"
               />
             </Route>
             <Route path="/projects/FeelMyFeels" component={ProjectMiniPage}>
-              <ProjectMiniPage id={data.projectsDescriptions[6]._id} />
+              <ProjectMiniPage id={data.projectsDescriptions[7]._id} />
             </Route>
           </Switch>
         </Fragment>
