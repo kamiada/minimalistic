@@ -19,7 +19,7 @@
                 "Node.JS",
                 "JavaScript"
             ],
-            "post": "I started this side project in January 2021, after a year of lockdowns in UK, in order to have visual way to compare the statistics and to learn about Chart.JS library for JavaScript. There are other programming libraries which are using even better looking charts, but I liked the simplicity of that one. The data for this project was taken from open source point, a website belonging to EU - https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide . The main challange in this project was to create filters, which would allow user to filter per interesting for them countries, months and parameters; and manipulating data so it could fit different charts.",
+            "post": "I started this side project in January 2021, after a year of lockdowns in UK, in order to have visual way to compare the statistics and to learn about Chart.JS library for JavaScript. There are other programming libraries which are using even better looking charts, but I liked the simplicity of that one. The data for this project was taken from  European Centre for Disease Prevention and Control. The main challange in this project was to create filters, which would allow user to filter per interesting for them countries, months and parameters; and manipulating data so it could fit different charts.",
             "github": "https://github.com/kamiada/chart_dashboard"
         },
         {
