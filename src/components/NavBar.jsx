@@ -41,7 +41,7 @@ class Navbar extends Component {
                 <a href="/projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a href="/resuem">Resume</a>
+                <a href="/resume">Resume</a>
               </li>
               <li class="nav-item">
                 <a href="/contact">Contact Me</a>

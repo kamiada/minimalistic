@@ -71,20 +71,14 @@
   }
 }
 .page_image_holder {
-  margin:10px;
+  margin: 10px;
   .page_image {
     width: 400px;
   }
   .img_gif {
-      width: 900px;
+    width: 900px;
   }
 }
-
-
-
-
-
-
 
 .App {
   img {
@@ -114,14 +108,14 @@
     position: absolute;
     animation-name: loadLine;
     animation-duration: 4s;
-    right:0; 
+    right: 0;
   }
 }
 @keyframes loadLine {
   from {
     width: 0;
   }
-  to{
+  to {
     width: 70%;
   }
 }
@@ -129,6 +123,13 @@
 // CONTACT ME
 .contact_wrapper {
   width: 700px;
+  margin-left: 30%;
+  margin-right: 40%;
+  margin-top: 5%;
+}
+
+//RESUME
+.resume_container {
   margin-left: 30%;
   margin-right: 40%;
   margin-top: 5%;
