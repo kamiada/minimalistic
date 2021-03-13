@@ -8,6 +8,7 @@ import {
   About,
   ProjectMiniPage,
   Contact,
+  Resume
 } from "../pages";
 import LivePic from "../gifs_examples/React App.png";
 import MobileApp from "../gifs_examples/AdriannaKaminkaPosterFinal.png";
@@ -40,7 +41,7 @@ class Navbar extends Component {
                 <a href="/projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a href="test">Resume</a>
+                <a href="/resuem">Resume</a>
               </li>
               <li class="nav-item">
                 <a href="/contact">Contact Me</a>
@@ -71,6 +72,7 @@ class Navbar extends Component {
             <Route path="/about" component={About}></Route>
             <Route path="/skills" component={Skills}></Route>
             <Route exact path="/projects" component={Projects}></Route>
+            <Route exact path="/resume" component={Resume}></Route>
             <Route exact path="/contact" component={Contact}></Route>
             {/* ROUTING FOR OUTSIDE PROJECTS */}
             <Route path="/projects/periodicTable" component={ProjectMiniPage}>
