@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./pages.scss";
 import { Document } from "react-pdf";
-import pdf from '../CV3.pdf';
+import pdf from '../docs/CV3.pdf';
 
 class Resume extends Component {
   render() {
